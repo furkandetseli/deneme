@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Yazılımcı</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span id="nav-name">Portfolio</span>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link">Ana Sayfa</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">Hakkımda</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#skills" class="nav-link">Yetenekler</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#projects" class="nav-link">Projeler</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">İletişim</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    Merhaba, Ben <span id="hero-name">Yazılımcı</span>
+                </h1>
+                <p class="hero-subtitle" id="hero-title">Full Stack Developer</p>
+                <p class="hero-description" id="hero-description">
+                    Modern web teknolojileri ile yaratıcı çözümler geliştiriyorum.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">Projelerim</a>
+                    <a href="#contact" class="btn btn-secondary">İletişim</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="profile-image">
+                    <img id="profile-img" src="https://via.placeholder.com/300x300/4f46e5/ffffff?text=Profil" alt="Profil Fotoğrafı">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">Hakkımda</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p id="about-description">
+                        Yazılım geliştirme alanında deneyimli bir geliştiriciyim. 
+                        Modern teknolojiler kullanarak kullanıcı dostu ve performanslı uygulamalar geliştiriyorum.
+                    </p>
+                    <div class="about-stats">
+                        <div class="stat">
+                            <h3 id="experience-years">3+</h3>
+                            <p>Yıl Deneyim</p>
+                        </div>
+                        <div class="stat">
+                            <h3 id="projects-count">20+</h3>
+                            <p>Tamamlanan Proje</p>
+                        </div>
+                        <div class="stat">
+                            <h3 id="clients-count">15+</h3>
+                            <p>Mutlu Müşteri</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Yetenekler</h2>
+            <div class="skills-grid" id="skills-container">
+                <!-- Skills will be populated by JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Projeler</h2>
+            <div class="projects-grid" id="projects-container">
+                <!-- Projects will be populated by JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">İletişim</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h3>E-posta</h3>
+                            <p id="contact-email">ornek@email.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h3>Telefon</h3>
+                            <p id="contact-phone">+90 555 123 45 67</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h3>Konum</h3>
+                            <p id="contact-location">İstanbul, Türkiye</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="social-links" id="social-links">
+                    <!-- Social links will be populated by JavaScript -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 <span id="footer-name">Yazılımcı</span>. Tüm hakları saklıdır.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
