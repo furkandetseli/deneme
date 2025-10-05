@@ -1,0 +1,145 @@
+{
+  "personal": {
+    "name": "Yazılımcı",
+    "title": "Full Stack Developer",
+    "description": "Modern web teknolojileri ile yaratıcı çözümler geliştiriyorum.",
+    "profileImage": "https://via.placeholder.com/300x300/4f46e5/ffffff?text=Profil",
+    "about": "Yazılım geliştirme alanında deneyimli bir geliştiriciyim. Modern teknolojiler kullanarak kullanıcı dostu ve performanslı uygulamalar geliştiriyorum. Sürekli öğrenmeye ve kendimi geliştirmeye odaklanıyorum.",
+    "stats": {
+      "experience": "3+",
+      "projects": "20+",
+      "clients": "15+"
+    }
+  },
+  "contact": {
+    "email": "ornek@email.com",
+    "phone": "+90 555 123 45 67",
+    "location": "İstanbul, Türkiye",
+    "social": [
+      {
+        "name": "GitHub",
+        "url": "https://github.com/kullaniciadi",
+        "icon": "fab fa-github"
+      },
+      {
+        "name": "LinkedIn",
+        "url": "https://linkedin.com/in/kullaniciadi",
+        "icon": "fab fa-linkedin"
+      },
+      {
+        "name": "Twitter",
+        "url": "https://twitter.com/kullaniciadi",
+        "icon": "fab fa-twitter"
+      },
+      {
+        "name": "Instagram",
+        "url": "https://instagram.com/kullaniciadi",
+        "icon": "fab fa-instagram"
+      }
+    ]
+  },
+  "skills": [
+    {
+      "name": "JavaScript",
+      "description": "Modern JavaScript, ES6+ özellikleri ve asenkron programlama",
+      "icon": "fab fa-js-square"
+    },
+    {
+      "name": "React",
+      "description": "React, React Native ve Next.js ile modern web uygulamaları",
+      "icon": "fab fa-react"
+    },
+    {
+      "name": "Node.js",
+      "description": "Backend geliştirme, API tasarımı ve Express.js",
+      "icon": "fab fa-node-js"
+    },
+    {
+      "name": "Python",
+      "description": "Python ile web geliştirme, Django ve Flask",
+      "icon": "fab fa-python"
+    },
+    {
+      "name": "HTML/CSS",
+      "description": "Responsive web tasarımı ve modern CSS teknikleri",
+      "icon": "fab fa-html5"
+    },
+    {
+      "name": "Git",
+      "description": "Versiyon kontrolü, GitHub ve işbirliği araçları",
+      "icon": "fab fa-git-alt"
+    },
+    {
+      "name": "MongoDB",
+      "description": "NoSQL veritabanı yönetimi ve Mongoose ODM",
+      "icon": "fas fa-database"
+    },
+    {
+      "name": "Docker",
+      "description": "Konteynerleştirme ve DevOps uygulamaları",
+      "icon": "fab fa-docker"
+    }
+  ],
+  "projects": [
+    {
+      "title": "E-Ticaret Platformu",
+      "description": "Modern e-ticaret platformu, React ve Node.js ile geliştirildi. Kullanıcı yönetimi, ödeme sistemi ve admin paneli içerir.",
+      "technologies": ["React", "Node.js", "MongoDB", "Stripe", "JWT"],
+      "image": "fas fa-shopping-cart",
+      "links": {
+        "live": "https://example-ecommerce.com",
+        "github": "https://github.com/kullaniciadi/ecommerce-platform"
+      }
+    },
+    {
+      "title": "Blog Uygulaması",
+      "description": "Kişisel blog uygulaması, Next.js ve Sanity CMS ile geliştirildi. SEO optimizasyonu ve responsive tasarım.",
+      "technologies": ["Next.js", "Sanity", "Tailwind CSS", "Vercel"],
+      "image": "fas fa-blog",
+      "links": {
+        "live": "https://example-blog.com",
+        "github": "https://github.com/kullaniciadi/blog-app"
+      }
+    },
+    {
+      "title": "Mobil Uygulama",
+      "description": "React Native ile geliştirilmiş mobil uygulama. Firebase entegrasyonu ve offline çalışma özelliği.",
+      "technologies": ["React Native", "Firebase", "Redux", "Expo"],
+      "image": "fas fa-mobile-alt",
+      "links": {
+        "live": "https://play.google.com/store/apps/details?id=com.example.app",
+        "github": "https://github.com/kullaniciadi/mobile-app"
+      }
+    },
+    {
+      "title": "Dashboard Uygulaması",
+      "description": "İş zekası dashboard uygulaması, gerçek zamanlı veri görselleştirme ve raporlama özellikleri.",
+      "technologies": ["Vue.js", "D3.js", "Express.js", "PostgreSQL"],
+      "image": "fas fa-chart-line",
+      "links": {
+        "live": "https://example-dashboard.com",
+        "github": "https://github.com/kullaniciadi/dashboard-app"
+      }
+    },
+    {
+      "title": "Sosyal Medya Uygulaması",
+      "description": "Sosyal medya platformu, gerçek zamanlı mesajlaşma ve medya paylaşım özellikleri.",
+      "technologies": ["React", "Socket.io", "AWS S3", "Redis"],
+      "image": "fas fa-users",
+      "links": {
+        "live": "https://example-social.com",
+        "github": "https://github.com/kullaniciadi/social-app"
+      }
+    },
+    {
+      "title": "Portfolio Sitesi",
+      "description": "Bu portfolio sitesi, modern web teknolojileri kullanılarak geliştirilmiştir.",
+      "technologies": ["HTML5", "CSS3", "JavaScript", "GitHub Pages"],
+      "image": "fas fa-laptop-code",
+      "links": {
+        "live": "https://kullaniciadi.github.io/portfolio",
+        "github": "https://github.com/kullaniciadi/portfolio"
+      }
+    }
+  ]
+}
